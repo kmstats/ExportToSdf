@@ -1,0 +1,70 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="com.echo.ios.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GbmcDBConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;data source=".\GbmcDB.sqlite";default timeout=3000;cache size=20000&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SQLite&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">data source=".\GbmcDB.sqlite";default timeout=3000;cache size=20000</Value>
+    </Setting>
+    <Setting Name="yngbdb1ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=gbrm.km.yn;Initial Catalog=yngbdb1;User ID=sa;Password=yngbhyt&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=gbrm.km.yn;Initial Catalog=yngbdb1;User ID=sa;Password=yngbhyt</Value>
+    </Setting>
+    <Setting Name="STR_TITLE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">电子名册离线数据生成工具 for RM</Value>
+    </Setting>
+    <Setting Name="STR_CHECKSQL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SQL服务器检测...</Value>
+    </Setting>
+    <Setting Name="STR_CHECKSQLITE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">客户端检测....</Value>
+    </Setting>
+    <Setting Name="STR_EXPORT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">同步数据(&amp;S)</Value>
+    </Setting>
+    <Setting Name="STR_EXIT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">退出(&amp;X)</Value>
+    </Setting>
+    <Setting Name="STR_CHKSQLOK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SQL服务器正常连接，地址：gbrm.km.yn 数据库：yngbdb1</Value>
+    </Setting>
+    <Setting Name="STR_CHKSQLERROR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SQL服务器连接失败，请检查网络设置和服务器</Value>
+    </Setting>
+    <Setting Name="STR_CHKSQLITEOK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Sqlite数据库正常连接</Value>
+    </Setting>
+    <Setting Name="STR_CHKSQLITEERROR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Sqlite数据库连接失败，请检查数据库文件</Value>
+    </Setting>
+    <Setting Name="STR_SYNC_UNIT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">正在同步单位树表</Value>
+    </Setting>
+    <Setting Name="STR_SYNC_GBMC" Type="System.String" Scope="User">
+      <Value Profile="(Default)">正在同步领导干部表</Value>
+    </Setting>
+    <Setting Name="STR_SYNC_RELATE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">正在同步亲属关系表</Value>
+    </Setting>
+    <Setting Name="STR_SYNC_OVER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">同步数据完成</Value>
+    </Setting>
+    <Setting Name="STR_SYNC_PROCESS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">正在同步 {0} ，第 {1} 条记录，共 {2} 条记录</Value>
+    </Setting>
+    <Setting Name="STR_SYNC_OK" Type="System.String" Scope="User">
+      <Value Profile="(Default)">"数据成功同步"</Value>
+    </Setting>
+    <Setting Name="STR_DB_FILE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GbmcDB.sqlite</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
